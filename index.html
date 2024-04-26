@@ -37,6 +37,25 @@
       background-color: #0056b3;
     }
   </style>
+  <meta charset="UTF-8">
+  <script type="text/javascript">
+    // Get the current URL path
+    var path = window.location.pathname;
+
+    // Define the URLs for your YouTube channel and Discord server
+    var youtubeURL = "https://www.youtube.com/@ForwardEn_";
+    var twitterURL = "https://twitter.com/ItzForwardTweet";
+
+    // If the path is "/youtube", redirect to your YouTube channel
+    if (path === "/youtube" || path === "/yt") {
+      window.location.href = youtubeURL;
+    } 
+    // If the path is "/discord", redirect to your Discord server
+    else if (path === "/twitter" || path === "/x") {
+      window.location.href = twitterURL;
+    } 
+    // If the path is not recognized, do nothing (show maintenance page)
+  </script>
 </head>
 <body>
   <h1>Website Under Maintenance</h1>
