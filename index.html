@@ -38,27 +38,6 @@
     }
   </style>
   <meta charset="UTF-8">
-  <script type="text/javascript">
-    // Get the current URL path
-    var path = window.location.pathname;
-
-    var youtubeURL = "https://www.youtube.com/@ForwardEn_";
-    var twitterURL = "https://twitter.com/ItzForwardTweet";
-
-    // Function to redirect based on path
-    function redirect() {
-      if (path === "/youtube" || path === "/yt") {
-        window.location.href = youtubeURL;
-      } 
-      else if (path === "/twitter" || path === "/x") {
-        window.location.href = twitterURL;
-      } 
-      // If the path is not recognized, do nothing (show maintenance page)
-    }
-
-    // Call the redirect function when the document is ready
-    document.addEventListener("DOMContentLoaded", redirect);
-  </script>
 </head>
 <body>
   <h1>Website Under Maintenance</h1>
